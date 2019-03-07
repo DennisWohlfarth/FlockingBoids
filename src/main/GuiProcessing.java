@@ -5,19 +5,21 @@ import processing.core.PApplet;
 
 public class GuiProcessing extends PApplet {
 
-    private Controller flock;
+    private static Controller flock;
+    private static String[] args1 = new String[2];
 
     public static void main(String[] args) {
+        args1 = args;
+        flock = new Controller();
         PApplet.main("main.GuiProcessing");
     }
 
     public void settings(){
-        flock = new Controller();
         size(flock.getWidth(), flock.getHeight());
     }
 
     public void setup() {
-        flock.start("Rainbow");
+        flock.start();
     }
 
     public void draw() {
@@ -37,7 +39,12 @@ public class GuiProcessing extends PApplet {
     }
 
     public void mousePressed() {
-        int [] rgb = flock.setColor();
+        int [] rgb = flock.setColor(51);
         flock.addBoid(new Boid(mouseX, mouseY,rgb));
     }
+
+    public Controller getFlock() {
+        return flock;
+    }
+
 }
