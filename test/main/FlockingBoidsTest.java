@@ -15,6 +15,7 @@ class FlockingBoidsTest {
     public static void test1()
     {
         test = new GuiProcessing();
+        test.getFlock().setStartingPosition("Random");
         test.main(new String[] {"--present", "test"});
     }
 

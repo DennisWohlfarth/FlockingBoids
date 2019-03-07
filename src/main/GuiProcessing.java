@@ -5,12 +5,11 @@ import processing.core.PApplet;
 
 public class GuiProcessing extends PApplet {
 
-    private static Controller flock;
+    private static Controller flock = new Controller();
     private static String[] args1 = new String[2];
 
     public static void main(String[] args) {
         args1 = args;
-        flock = new Controller();
         PApplet.main("main.GuiProcessing");
     }
 

@@ -18,8 +18,8 @@ public class Controller {
     private float separationForce = 0.03f;
     private float alignmentForce = 0.03f;
     private float cohesionForce = 0.03f;
-    private String startingPosition = "Random";
-    private String coloring ="ByMovement";
+    private String startingPosition = "CircleIn"; //Is possible: Random, CircleRandom, CircleIn, Sine, Phyllotaxis
+    private String coloring ="ByMovement"; //Is possible: ByMovement, Rainbow
     private ArrayList<Boid> boids;
     //////////////////////////////////////////////////////////////////////
 
@@ -266,5 +266,9 @@ public class Controller {
 
     public void setFlockmateRadius(int flockmateRadius) {
         this.flockmateRadius = flockmateRadius;
+    }
+
+    public void setStartingPosition(String startingPosition) {
+        this.startingPosition = startingPosition;
     }
 }
