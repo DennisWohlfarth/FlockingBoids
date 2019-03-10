@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Testing">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Soweit fertig, bis auf den Test!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GuiProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GuiProcessing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/main/FlockingBoidsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/FlockingBoidsTest.java" afterDir="false" />
     </list>
@@ -61,25 +60,26 @@
     <session id="683351048">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="13" />
-          <entry key="java" value="7000" />
-          <entry key="txt" value="31" />
+          <entry key="dummy" value="28" />
+          <entry key="java" value="7267" />
+          <entry key="txt" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7000" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="JAVA" value="7267" />
+          <entry key="PLAIN_TEXT" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,15 +102,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/GuiProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="99">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/main/FlockingBoidsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="1428">
+              <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,34 +131,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4471">
+            <state relative-caret-position="3978">
               <caret line="270" column="62" selection-start-line="270" selection-start-column="62" selection-end-line="270" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#5001#5002#0" expanded="true" />
-                <element signature="e#5080#5081#0" expanded="true" />
-                <element signature="e#7701#7702#0" expanded="true" />
-                <element signature="e#7729#7730#0" expanded="true" />
-                <element signature="e#7758#7759#0" expanded="true" />
-                <element signature="e#7786#7787#0" expanded="true" />
-                <element signature="e#7816#7817#0" expanded="true" />
-                <element signature="e#7845#7846#0" expanded="true" />
-                <element signature="e#7886#7887#0" expanded="true" />
-                <element signature="e#7914#7915#0" expanded="true" />
-                <element signature="e#7946#7947#0" expanded="true" />
-                <element signature="e#7975#7976#0" expanded="true" />
-                <element signature="e#8431#8432#0" expanded="true" />
-                <element signature="e#8462#8463#0" expanded="true" />
-                <element signature="e#8460#8461#0" expanded="true" />
-                <element signature="e#8514#8515#0" expanded="true" />
-                <element signature="e#8573#8574#0" expanded="true" />
                 <element signature="e#8625#8626#0" expanded="true" />
-                <element signature="e#8682#8683#0" expanded="true" />
-                <element signature="e#8732#8733#0" expanded="true" />
-                <element signature="e#8791#8792#0" expanded="true" />
-                <element signature="e#8845#8846#0" expanded="true" />
+                <element signature="e#8679#8680#0" expanded="true" />
                 <element signature="e#9130#9131#0" expanded="true" />
               </folding>
             </state>
@@ -168,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Boid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
+            <state relative-caret-position="204">
               <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#613#614#0" expanded="true" />
@@ -246,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,6 +258,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,7 +274,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551977559440" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552230310385" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dynamic.classpath" value="false" />
@@ -455,7 +433,8 @@
       <workItem from="1551707991533" duration="10458000" />
       <workItem from="1551774059540" duration="11784000" />
       <workItem from="1551791919117" duration="15333000" />
-      <workItem from="1551860811787" duration="28021000" />
+      <workItem from="1551860811787" duration="28498000" />
+      <workItem from="1552125047589" duration="5165000" />
     </task>
     <task id="LOCAL-00001" summary="erste Struktur">
       <created>1551718096469</created>
@@ -478,49 +457,55 @@
       <option name="project" value="LOCAL" />
       <updated>1551976885663</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Soweit fertig, bis auf den Test!!">
+      <created>1551977660157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551977660157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 32m 56s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 16m 55s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 33m 49s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 18m 16s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 34m 00s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 18m 46s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 34m 48s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 21m 31s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 38m 29s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 21m 52s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 39m 26s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 22m 44s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 46m 45s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 23m 23s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 48m 50s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 38m 58s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 49m 44s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 11h 41m 18s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlockingBoidsTest - 2019.03.07 at 17h 50m 08s.xml">
+    <history-entry file="FlockingBoidsTest - 2019.03.09 at 12h 19m 22s.xml">
       <configuration name="FlockingBoidsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66898000" />
+    <option name="totallyTimeSpent" value="72540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2388664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24291497" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -529,7 +514,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40569395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40569395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,7 +552,8 @@
     <MESSAGE value="erste Struktur" />
     <MESSAGE value="Processing" />
     <MESSAGE value="Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
+    <MESSAGE value="Soweit fertig, bis auf den Test!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Soweit fertig, bis auf den Test!!" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -577,9 +563,16 @@
     <entry file="file://$PROJECT_DIR$/src/main/main.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/Point.java" />
     <entry file="file://$PROJECT_DIR$/src/main/GUI.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="387" selection-start-line="387" selection-end-line="387" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Boid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
+        <state relative-caret-position="204">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#613#614#0" expanded="true" />
@@ -590,67 +583,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Random.java">
+    <entry file="file://$PROJECT_DIR$/src/main/GuiProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="387" selection-start-line="387" selection-end-line="387" />
+        <state relative-caret-position="99">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4471">
+        <state relative-caret-position="3978">
           <caret line="270" column="62" selection-start-line="270" selection-start-column="62" selection-end-line="270" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#5001#5002#0" expanded="true" />
-            <element signature="e#5080#5081#0" expanded="true" />
-            <element signature="e#7701#7702#0" expanded="true" />
-            <element signature="e#7729#7730#0" expanded="true" />
-            <element signature="e#7758#7759#0" expanded="true" />
-            <element signature="e#7786#7787#0" expanded="true" />
-            <element signature="e#7816#7817#0" expanded="true" />
-            <element signature="e#7845#7846#0" expanded="true" />
-            <element signature="e#7886#7887#0" expanded="true" />
-            <element signature="e#7914#7915#0" expanded="true" />
-            <element signature="e#7946#7947#0" expanded="true" />
-            <element signature="e#7975#7976#0" expanded="true" />
-            <element signature="e#8431#8432#0" expanded="true" />
-            <element signature="e#8462#8463#0" expanded="true" />
-            <element signature="e#8460#8461#0" expanded="true" />
-            <element signature="e#8514#8515#0" expanded="true" />
-            <element signature="e#8573#8574#0" expanded="true" />
             <element signature="e#8625#8626#0" expanded="true" />
-            <element signature="e#8682#8683#0" expanded="true" />
-            <element signature="e#8732#8733#0" expanded="true" />
-            <element signature="e#8791#8792#0" expanded="true" />
-            <element signature="e#8845#8846#0" expanded="true" />
+            <element signature="e#8679#8680#0" expanded="true" />
             <element signature="e#9130#9131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GuiProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/main/FlockingBoidsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="1428">
+          <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
